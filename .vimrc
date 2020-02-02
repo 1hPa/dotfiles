@@ -1,12 +1,21 @@
-set tabstop=4
 
-"-------Look&Feel-----
 
-"ルーラー,行番号を表示
-set ruler
+
 set number
+set cursorline
 
-"------エンコード------
-:syntax on
+syntax enable
 
+set hlsearch
+
+set laststatus=2
+
+set wildmenu
+
+
+"edit------------------------------
+source $HOME/dotfiles/vim/settings/edit.vim
+
+"show------------------------------
+source $HOME/dotfiles/vim/settings/show.vim
 
