@@ -8,7 +8,8 @@ set softtabstop=4		"<tab>の空白数
 set expandtab			"<tab>をホワイトスペースに
 set tabstop=4			"<tab>が対応する空白数
 set shiftround			"'<'や'>'でインデントする際に'shiftwidth'の倍数に丸める
-set nf=				"インクリメントやデクリメントを10進数
+set nf=				    "インクリメントやデクリメントを10進数
+set clipboard+=unnamed  "クリップボード有効
 "対応括弧に'<','>'を追加
 set matchpairs& matchpairs+=<:>
 "バックスペースでなんでも消せるように
