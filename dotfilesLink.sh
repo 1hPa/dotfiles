@@ -1,5 +1,8 @@
-DOT_FILES(.bashrc .bash_profile .zshrc )
-for file in ${DOT_FILES[@]}
+DOTPATH=~/.dotfiles
+
+for f in .??*
 do
-    ln -s $HOME/dotfiles/$file $HOME/$file
+    [ "$f" = ".git" ] && continue
+
+    ln -snfv "$DOTPATH/$f" "$HOME"/"$f"
 done
