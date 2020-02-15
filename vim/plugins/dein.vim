@@ -18,6 +18,6 @@ if dein#load_state(s:dein_cache_dir)
     call dein#save_state()
 endif
 
-"if dein#check_install()
-"    call dein#install()
-"endif 
+if dein#check_install()
+    call dein#install()
+endif 
