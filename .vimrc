@@ -12,3 +12,6 @@ source $HOME/dotfiles/vim/settings/macro.vim
 
 "dein.vim--------------------------
 source $HOME/dotfiles/vim/plugins/dein.vim
+
+"other(binary)---------------------
+source $HOME/dotfiles/vim/other/binary.vim
