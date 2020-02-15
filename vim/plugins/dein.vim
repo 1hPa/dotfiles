@@ -2,8 +2,8 @@
     set nocompatible
 endif
 
-let s:dein_script_dir = $XDG_CONFIG_HOME . '/vim/plugins/script'
-let s:dein_toml_dir = $XDG_CONFIG_HOME . '/vim/plugins/toml'
+let s:dein_script_dir = $XDG_DOTFILES_HOME . '/vim/plugins/script'
+let s:dein_toml_dir = $XDG_DOTFILES_HOME . '/vim/plugins/toml'
 let s:dein_cache_dir = $XDG_CACHE_HOME . '/dein'
 
 set runtimepath+=$XDG_CACHE_HOME/dein/repos/github.com/Shougo/dein.vim
@@ -18,6 +18,6 @@ if dein#load_state(s:dein_cache_dir)
     call dein#save_state()
 endif
 
-if dein#check_install()
-    call dein#install()
-endif 
+"if dein#check_install()
+"    call dein#install()
+"endif 
