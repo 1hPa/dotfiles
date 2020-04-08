@@ -11,6 +11,12 @@ export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 
+
+#java PATH-------------------------------------
+export PATH=$PATH:/Library/Java/JavaVirtualMachines/jdk-14.jdk/Contents/Home/bin
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-14.jdk/Contents/Home
+
+
 #Starship--------------------------------------
 eval "$(starship init zsh)"
 #----------------------------------------------
