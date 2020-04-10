@@ -16,6 +16,14 @@ eval "$(pyenv init -)"
 export PATH=$PATH:/Library/Java/JavaVirtualMachines/jdk-14.jdk/Contents/Home/bin
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-14.jdk/Contents/Home
 
+#Rust PATH-------------------------------------
+export PATH="$HOME/.cargo/bin:$PATH"
+
+#Golang PATH-----------------------------------
+export GOROOT=$HOME/go
+export GOPATH=$HOME/go/goroot
+export PATH=$PATH:$HOME/go/bin
+
 
 #Starship--------------------------------------
 eval "$(starship init zsh)"
