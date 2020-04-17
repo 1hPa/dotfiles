@@ -1,17 +1,17 @@
 "edit------------------------------
-source $HOME/dotfiles/vim/settings/edit.vim
+source $HOME/.vim/config/settings/edit.vim
 
 "show------------------------------
-source $HOME/dotfiles/vim/settings/show.vim
+source $HOME/.vim/config/settings/show.vim
 
 "search-----------------------------
-source $HOME/dotfiles/vim/settings/search.vim
+source $HOME/.vim/config/settings/search.vim
 
 "macro-----------------------------
-source $HOME/dotfiles/vim/settings/macro.vim
+source $HOME/.vim/config/settings/macro.vim
 
 "dein.vim--------------------------
-source $HOME/dotfiles/vim/plugins/dein.vim
+source $HOME/.vim/config/plugins/dein.vim
 
 "other(binary)---------------------
-source $HOME/dotfiles/vim/other/binary.vim
+"source $HOME/.vim/config/others/binary.vim
