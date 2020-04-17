@@ -2,9 +2,6 @@
 export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_CACHE_HOME="$HOME/.cache"
 
-#~/.vimrc(Enviroment variable)
-export XDG_DOTFILES_HOME="$HOME/dotfiles"
-
 
 #pyenv-----------------------------------------
 export PYENV_ROOT="$HOME/.pyenv"
@@ -20,14 +17,16 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-14.jdk/Contents/Home
 export PATH="$HOME/.cargo/bin:$PATH"
 
 #Golang PATH-----------------------------------
-export GOROOT=$HOME/go
-export GOPATH=$HOME/go/goroot
-export PATH=$PATH:$HOME/go/bin
+#export GOPATH=$HOME/go/goroot
+#export PATH=$PATH:$HOME/go/bin
 
 
 #Starship--------------------------------------
 eval "$(starship init zsh)"
-#----------------------------------------------
+
+#LSCOLORS--------------------------------------
+#export LSCOLORS=exfxcxdxbxegedabagacad
+export LSCOLORS=gxfxcxdxbxegedabagacad
 
 
 #alias-----------------------------------------
@@ -35,3 +34,4 @@ alias la='ls -a'
 alias ll='ls -l'
 alias emacs='nvim'
 alias vi='vim'
+alias ls='ls -G'
