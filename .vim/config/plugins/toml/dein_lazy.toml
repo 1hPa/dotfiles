@@ -1,0 +1,5 @@
+#vim-processing----------
+
+[[plugins]]
+repo = 'sophacles/vim-processing'
+on_ft = 'arduino'
