@@ -7,7 +7,8 @@ let g:airline#extensions#tabline#enabled = 1
 
 "Show Tab number"
 let g:airline#extensions#tabline#buffer_idx_mode = 1
-
+let g:airline_theme='papercolor' "落ち着いた色調が好き
+let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#buffer_idx_format = {
 	\ '0': '0 ',
 	\ '1': '1 ',
@@ -20,10 +21,3 @@ let g:airline#extensions#tabline#buffer_idx_format = {
 	\ '8': '8 ',
 	\ '9': '9 '
 	\}
-
-
-set laststatus=2
-set showtabline=2 " 常にタブラインを表示
-set t_Co=256 " この設定がないと色が正しく表示されない
-let g:airline_theme='papercolor' "落ち着いた色調が好き
-let g:airline_powerline_fonts = 1
