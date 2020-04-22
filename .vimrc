@@ -14,4 +14,4 @@ source $HOME/.vim/config/settings/macro.vim
 source $HOME/.vim/config/plugins/dein.vim
 
 "other(binary)---------------------
-"source $HOME/.vim/config/others/binary.vim
+source $HOME/.vim/config/others/binary.vim
