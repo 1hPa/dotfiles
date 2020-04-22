@@ -42,3 +42,6 @@ set matchpairs& matchpairs+=<:>
 
 "クリップボード有効
 set clipboard=unnamed
+
+"なんでも消せるようにする
+set backspace=indent,eol,start
