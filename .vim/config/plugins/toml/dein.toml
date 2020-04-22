@@ -3,12 +3,16 @@
 [[plugins]]
 repo = 'Shougo/dein.vim'
 
-# airline----------------
+#status bar--------------
 
 [[plugins]]
 repo = 'vim-airline/vim-airline'
-depends = ['vim-airline/vim-airline']
-hook_add = 'source $HOME/.vim/config/plugins/script/airline.vim'
+depends = ['vim-air-themes']
+hook_add = 'source $HOME/.vim/config/plugins/script/statusbar.vim'
+
+#status bar--------------
+[[plugins]]
+repo = 'vim-airline/vim-airline-themes'
 
 #quick-run---------------
 
