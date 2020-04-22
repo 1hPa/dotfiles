@@ -4,7 +4,7 @@ endif
 
 let s:dein_script_dir = $HOME . '/.vim/config/plugins/script'
 let s:dein_toml_dir = $HOME . '/.vim/config/plugins/toml'
-let s:dein_cache_dir = $HOME . '/dein'
+let s:dein_cache_dir = $HOME . '/.dein'
 
 set runtimepath+=$XDG_CACHE_HOME/dein/repos/github.com/Shougo/dein.vim
 
@@ -21,3 +21,5 @@ endif
 if dein#check_install()
     call dein#install()
 endif
+
+syntax enable
