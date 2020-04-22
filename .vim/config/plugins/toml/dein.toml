@@ -23,8 +23,3 @@ repo = 'tomasr/molokai'
 [[plugins]]
 repo = 'thinca/vim-quickrun'
 hook_add = 'source $HOME/.vim/config/plugins/script/quickrun.vim'
-
-#vim-processing----------
-
-[[plugins]]
-repo = 'sophacles/vim-processing'
