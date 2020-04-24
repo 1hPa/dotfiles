@@ -10,7 +10,7 @@ repo = 'vim-airline/vim-airline'
 depends = ['vim-air-themes']
 hook_add = 'source $HOME/.vim/config/plugins/script/statusbar.vim'
 
-#status bar_themes--------------
+#status bar_themes-------
 [[plugins]]
 repo = 'vim-airline/vim-airline-themes'
 
@@ -23,3 +23,14 @@ repo = 'tomasr/molokai'
 [[plugins]]
 repo = 'thinca/vim-quickrun'
 hook_add = 'source $HOME/.vim/config/plugins/script/quickrun.vim'
+
+#scrooloose/nerdtree-----
+
+[[plugins]]
+repo = 'scrooloose/nerdtree'
+hook_add = 'source $HOME/.vim/config/plugins/script/nerdtree.vim'
+
+#vim-devicon-------------
+
+[[plugins]]
+repo = 'ryanoasis/vim-devicons'
