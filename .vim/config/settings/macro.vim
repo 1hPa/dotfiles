@@ -49,6 +49,9 @@ nnoremap <C-p> gT
 "jjでESC判定
 inoremap jj <Esc>
 
+"NERDTreeのショートカットキー
+nnoremap <C-n> :NERDTreeToggle<CR>
+
  " :e などでファイルを開く際にフォルダが存在しない場合は自動作成
 function! s:mkdir(dir, force)
   if !isdirectory(a:dir) && (a:force ||
