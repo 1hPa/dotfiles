@@ -17,8 +17,5 @@ let g:NERDTreeIgnore=['\.clean$', '\.swp$', '\.bak$', '\~$']
 "ブックマークの表示
 let g:NERDTreeShowBookmarks=0
 
-"ツリーでの行番号の表示
-let g:NERDTreeShowLineNumbers=1
-
 "ツリーにファイル名を表示するか
 let g:NERDTreeShowFiles=1
