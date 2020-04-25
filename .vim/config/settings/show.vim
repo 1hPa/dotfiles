@@ -6,3 +6,6 @@ set wrap
 
 "自動的に改行が入るのを無効化
 set textwidth=0
+
+"折り返されたところを見やすく
+set showbreak=↪
