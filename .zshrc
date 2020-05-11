@@ -34,3 +34,4 @@ alias la='ls -a'
 alias ll='ls -l'
 alias emacs='nvim'
 alias vi='vim'
+alias ls='ls -G'    #ls -Gでないとcolorshemeが適用されない
