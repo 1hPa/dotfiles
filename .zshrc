@@ -22,7 +22,7 @@ export PATH=$PATH:$HOME/go/bin
 
 
 #Starship--------------------------------------
-eval "$(starship init zsh)"
+#eval "$(starship init zsh)"
 
 #LSCOLORS--------------------------------------
 #export LSCOLORS=exfxcxdxbxegedabagacad
