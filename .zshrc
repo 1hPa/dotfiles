@@ -17,8 +17,8 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-14.jdk/Contents/Home
 export PATH="$HOME/.cargo/bin:$PATH"
 
 #Golang PATH-----------------------------------
-#export GOPATH=$HOME/go/goroot
-#export PATH=$PATH:$HOME/go/bin
+export GOPATH=$HOME/go
+export PATH=$PATH:$HOME/go/bin
 
 
 #Starship--------------------------------------
