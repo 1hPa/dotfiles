@@ -19,3 +19,6 @@ let g:NERDTreeShowBookmarks=0
 
 "ツリーにファイル名を表示するか
 let g:NERDTreeShowFiles=1
+
+"NERDTree icon
+let g:webdevicons_enable_denite = 1
