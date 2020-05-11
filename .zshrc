@@ -26,7 +26,7 @@ eval "$(starship init zsh)"
 
 #LSCOLORS--------------------------------------
 #export LSCOLORS=exfxcxdxbxegedabagacad
-export LSCOLORS=gxfxcxdxbxegedabagacad
+#export LSCOLORS=gxfxcxdxbxegedabagacad
 
 
 #alias-----------------------------------------
