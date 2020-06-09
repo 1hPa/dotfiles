@@ -32,6 +32,6 @@ eval "$(starship init zsh)"
 #alias-----------------------------------------
 alias la='ls -a'
 alias ll='ls -l'
+alias ls='ls -G'    #apply colorsheme
 alias emacs='nvim'
 alias vi='vim'
-alias ls='ls -G'    #ls -Gでないとcolorshemeが適用されない
