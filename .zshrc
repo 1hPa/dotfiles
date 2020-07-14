@@ -24,11 +24,6 @@ export PATH=$PATH:$HOME/go/bin
 #Starship--------------------------------------
 eval "$(starship init zsh)"
 
-#LSCOLORS--------------------------------------
-#export LSCOLORS=exfxcxdxbxegedabagacad
-#export LSCOLORS=gxfxcxdxbxegedabagacad
-
-
 #alias-----------------------------------------
 
 #--------------------command-------------------
