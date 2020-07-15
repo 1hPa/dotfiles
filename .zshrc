@@ -29,6 +29,7 @@ eval "$(starship init zsh)"
 #--------------------command-------------------
 alias la='ls -a'
 alias ll='ls -l'
+alias lla='ls -la'
 alias ls='ls -G'    #apply colorsheme
 
 #--------------------editter--------------------
