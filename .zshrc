@@ -24,6 +24,9 @@ export PATH=$PATH:$HOME/go/bin
 #Starship--------------------------------------
 eval "$(starship init zsh)"
 
+#gh command completion-------------------------
+eval "$(gh completion -s zsh)"
+
 #alias-----------------------------------------
 
 #--------------------command-------------------
