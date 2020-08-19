@@ -30,10 +30,10 @@ eval "$(gh completion -s zsh)"
 #alias-----------------------------------------
 
 #--------------------command-------------------
+alias ls='lsd'
 alias la='ls -a'
 alias ll='ls -l'
 alias lla='ls -la'
-alias ls='ls -G'    #apply colorsheme
 
 #--------------------editter--------------------
 alias emacs='nvim'
