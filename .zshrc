@@ -37,4 +37,4 @@ alias lla='ls -la'
 
 #--------------------editter--------------------
 alias emacs='nvim'
-alias vi='vim'
+alias vi='nvim'
