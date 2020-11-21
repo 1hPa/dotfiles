@@ -12,6 +12,7 @@ eval "$(pyenv init -)"
 #java PATH-------------------------------------
 export PATH=$PATH:/Library/Java/JavaVirtualMachines/jdk-14.jdk/Contents/Home/bin
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-14.jdk/Contents/Home
+export PATH=/usr/local/opt/openjdk/bin:$PATH
 
 #Rust PATH-------------------------------------
 export PATH="$HOME/.cargo/bin:$PATH"
