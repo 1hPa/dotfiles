@@ -35,6 +35,8 @@ alias la='ls -a'
 alias ll='ls -l'
 alias lla='ls -la'
 
+alias rm='trash-put'
+
 #--------------------editter--------------------
 alias emacs='nvim'
 alias vi='nvim'
