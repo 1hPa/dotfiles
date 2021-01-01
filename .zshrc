@@ -10,9 +10,8 @@ eval "$(pyenv init -)"
 
 
 #java PATH-------------------------------------
-export PATH=$PATH:/Library/Java/JavaVirtualMachines/jdk-14.jdk/Contents/Home/bin
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-14.jdk/Contents/Home
-export PATH=/usr/local/opt/openjdk/bin:$PATH
+export PATH="/usr/local/opt/openjdk/bin:$PATH"
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/adoptopenjdk-15.jdk/Contents/Home"
 
 #Rust PATH-------------------------------------
 export PATH="$HOME/.cargo/bin:$PATH"
