@@ -27,6 +27,9 @@ eval "$(starship init zsh)"
 #gh command completion-------------------------
 eval "$(gh completion -s zsh)"
 
+#perl------------------------------------------
+eval "$(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib=$HOME/perl5)"
+
 #alias-----------------------------------------
 
 #--------------------command-------------------
