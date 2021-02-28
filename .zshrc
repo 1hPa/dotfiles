@@ -28,7 +28,7 @@ eval "$(starship init zsh)"
 eval "$(gh completion -s zsh)"
 
 #perl------------------------------------------
-eval "$(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib=$HOME/perl5)"
+if which plenv > /dev/null; then eval "$(plenv init -)"; fi
 
 #alias-----------------------------------------
 
