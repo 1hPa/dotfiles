@@ -52,7 +52,7 @@ fi
 #alias-----------------------------------------
 
 #--------------------command-------------------
-alias ls='lsd'
+alias ls='exa -G'
 alias la='ls -a'
 alias ll='ls -l'
 alias lla='ls -la'
