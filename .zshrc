@@ -20,10 +20,6 @@ export PATH="$HOME/.cargo/bin:$PATH"
 export GOPATH=$HOME/go
 export PATH=$PATH:$HOME/go/bin
 
-
-#Starship--------------------------------------
-eval "$(starship init zsh)"
-
 #gh command completion-------------------------
 eval "$(gh completion -s zsh)"
 
