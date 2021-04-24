@@ -45,6 +45,11 @@ if [ "$TERM" != "linux" ]; then
     install_powerline_precmd
 fi
 
+#startup tmux -------------------------------
+if [ $SHLVL = 1 ]; then
+  tmux
+fi
+
 #alias-----------------------------------------
 
 #--------------------command-------------------
