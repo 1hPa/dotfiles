@@ -45,11 +45,6 @@ if [ "$TERM" != "linux" ]; then
     install_powerline_precmd
 fi
 
-#startup tmux -------------------------------
-if [ $SHLVL = 1 ]; then
-  tmux
-fi
-
 #alias-----------------------------------------
 
 #--------------------command-------------------
@@ -58,7 +53,6 @@ alias la='ls -a'
 alias ll='ls -l'
 alias lla='ls -la'
 
-alias rm='trash-put'
 
 #--------------------editter--------------------
 alias emacs='nvim'
