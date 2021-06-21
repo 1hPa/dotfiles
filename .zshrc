@@ -53,6 +53,8 @@ alias la='ls -a'
 alias ll='ls -l'
 alias lla='ls -la'
 
+alias b='bat'
+
 #--------------------editter--------------------
 alias emacs='nvim'
 alias vi='nvim'
