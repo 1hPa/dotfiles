@@ -49,9 +49,9 @@ fi
 
 #--------------------command-------------------
 alias l='exa -G'
-alias la='ls -a'
-alias ll='ls -l'
-alias lla='ls -la'
+alias la='exa -a'
+alias ll='exa -l'
+alias lla='exa -la'
 
 alias b='bat'
 
