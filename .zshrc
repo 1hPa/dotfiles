@@ -48,6 +48,8 @@ alias lla='exa -la'
 
 alias b='bat'
 
+alias g='git'
+
 #--------------------editter--------------------
 alias emacs='nvim'
 alias vi='nvim'
